@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "ST-88-Solution",
+    "slug": "ST-88-Solution",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ritikapunjabi.ST88Solution"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF",
+        "useNextNotificationsApi": true
+      },
+      "package": "com.ritikapunjabi.ST88Solution"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a99cd3a0-6949-45b8-95b6-76fb8a180100"
+      }
+    }
+  }
+}
